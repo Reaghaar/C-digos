@@ -1,0 +1,371 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"72 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/configura.h
+[v _config config `(v  1 e 1 0 ]
+"4 /opt/microchip/xc8/v2.10/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /opt/microchip/xc8/v2.10/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /opt/microchip/xc8/v2.10/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /opt/microchip/xc8/v2.10/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /opt/microchip/xc8/v2.10/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /opt/microchip/xc8/v2.10/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 /opt/microchip/xc8/v2.10/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /opt/microchip/xc8/v2.10/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.10/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.10/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /opt/microchip/xc8/v2.10/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"24 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/cafe_correto.c
+[v _main main `(v  1 e 1 0 ]
+"47
+[v _envia envia `(v  1 e 1 0 ]
+[v i2_envia envia `(v  1 e 1 0 ]
+"61
+[v _tmr tmr `IIH(v  1 e 1 0 ]
+"71
+[v _nivel_agua nivel_agua `(v  1 e 1 0 ]
+[v i2_nivel_agua nivel_agua `(v  1 e 1 0 ]
+"97
+[v _trata trata `(v  1 e 1 0 ]
+"112
+[v _cafe cafe `(v  1 e 1 0 ]
+[v i2_cafe cafe `(v  1 e 1 0 ]
+"159
+[v _cafe_expresso cafe_expresso `(v  1 e 1 0 ]
+[v i2_cafe_expresso cafe_expresso `(v  1 e 1 0 ]
+"206
+[v _capuccino capuccino `(v  1 e 1 0 ]
+[v i2_capuccino capuccino `(v  1 e 1 0 ]
+"255
+[v _botao botao `(v  1 e 1 0 ]
+"38 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/lcd.c
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+[v i2_lcd_write lcd_write `(v  1 e 1 0 ]
+"52
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+[v i2_lcd_clear lcd_clear `(v  1 e 1 0 ]
+"62
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+[v i2_lcd_puts lcd_puts `(v  1 e 1 0 ]
+"84
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+[v i2_lcd_goto lcd_goto `(v  1 e 1 0 ]
+"92
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"271 /opt/microchip/xc8/v2.10/pic/include/pic18f4520.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S180 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"315
+[s S189 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S198 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S207 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S209 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S212 . 1 `S180 1 . 1 0 `S189 1 . 1 0 `S198 1 . 1 0 `S207 1 . 1 0 `S209 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES212  1 e 1 @3969 ]
+[s S91 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"497
+[s S100 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S109 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S118 . 1 `uc 1 T1CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+]
+[s S122 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S126 . 1 `S91 1 . 1 0 `S100 1 . 1 0 `S109 1 . 1 0 `S118 1 . 1 0 `S122 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES126  1 e 1 @3970 ]
+"632
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"774
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"1477
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1699
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1921
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2365
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"3110
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"3320
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"3576
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3588
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3600
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4221
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+"4619
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4690
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4775
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"6085
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"6168
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"6692
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"7546
+[v _IPEN IPEN `VEb  1 e 0 @32391 ]
+"7615
+[v _LATA5 LATA5 `VEb  1 e 0 @31821 ]
+"7777
+[v _LE0 LE0 `VEb  1 e 0 @31848 ]
+"7780
+[v _LE1 LE1 `VEb  1 e 0 @31849 ]
+"8173
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"8176
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"8179
+[v _RCIP RCIP `VEb  1 e 0 @31997 ]
+"8731
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"14 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/cafe_correto.c
+[v _EXEC EXEC `i  1 e 2 0 ]
+"15
+[v _tem_agua tem_agua `i  1 e 2 0 ]
+"24
+[v _main main `(v  1 e 1 0 ]
+{
+"46
+} 0
+"92 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/lcd.c
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"118
+} 0
+"72 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/configura.h
+[v _config config `(v  1 e 1 0 ]
+{
+"92
+} 0
+"255 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/cafe_correto.c
+[v _botao botao `(v  1 e 1 0 ]
+{
+"291
+} 0
+"206
+[v _capuccino capuccino `(v  1 e 1 0 ]
+{
+"236
+[v capuccino@i_319 i `i  1 a 2 29 ]
+"223
+[v capuccino@i_316 i `i  1 a 2 27 ]
+"210
+[v capuccino@i i `i  1 a 2 25 ]
+"254
+} 0
+"159
+[v _cafe_expresso cafe_expresso `(v  1 e 1 0 ]
+{
+"189
+[v cafe_expresso@i_310 i `i  1 a 2 29 ]
+"176
+[v cafe_expresso@i_307 i `i  1 a 2 27 ]
+"163
+[v cafe_expresso@i i `i  1 a 2 25 ]
+"205
+} 0
+"112
+[v _cafe cafe `(v  1 e 1 0 ]
+{
+"142
+[v cafe@i_301 i `i  1 a 2 29 ]
+"129
+[v cafe@i_298 i `i  1 a 2 27 ]
+"116
+[v cafe@i i `i  1 a 2 25 ]
+"158
+} 0
+"71
+[v _nivel_agua nivel_agua `(v  1 e 1 0 ]
+{
+"96
+} 0
+"62 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/lcd.c
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v lcd_puts@s s `*.25Cuc  1 p 2 20 ]
+"67
+} 0
+"84
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+{
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+"86
+[v lcd_goto@pos pos `uc  1 a 1 20 ]
+"88
+} 0
+"52
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+{
+"57
+} 0
+"38
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+{
+[v lcd_write@c c `uc  1 a 1 wreg ]
+[v lcd_write@c c `uc  1 a 1 wreg ]
+"40
+[v lcd_write@c c `uc  1 a 1 19 ]
+"45
+} 0
+"47 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/cafe_correto.c
+[v _envia envia `(v  1 e 1 0 ]
+{
+[v envia@n n `i  1 p 2 19 ]
+"60
+} 0
+"61
+[v _tmr tmr `IIH(v  1 e 1 0 ]
+{
+"70
+} 0
+"97
+[v _trata trata `(v  1 e 1 0 ]
+{
+[v trata@RECEP RECEP `uc  1 a 1 wreg ]
+[v trata@RECEP RECEP `uc  1 a 1 wreg ]
+[v trata@RECEP RECEP `uc  1 a 1 14 ]
+"111
+} 0
+"206
+[v i2_capuccino capuccino `(v  1 e 1 0 ]
+{
+[v i2capuccino@i_319 capuccino `i  1 a 2 10 ]
+[v i2capuccino@i_316 capuccino `i  1 a 2 8 ]
+[v i2capuccino@i capuccino `i  1 a 2 6 ]
+"254
+} 0
+"159
+[v i2_cafe_expresso cafe_expresso `(v  1 e 1 0 ]
+{
+[v i2cafe_expresso@i_310 cafe_expresso `i  1 a 2 10 ]
+[v i2cafe_expresso@i_307 cafe_expresso `i  1 a 2 8 ]
+[v i2cafe_expresso@i cafe_expresso `i  1 a 2 6 ]
+"205
+} 0
+"112
+[v i2_cafe cafe `(v  1 e 1 0 ]
+{
+[v i2cafe@i_301 cafe `i  1 a 2 10 ]
+[v i2cafe@i_298 cafe `i  1 a 2 8 ]
+[v i2cafe@i cafe `i  1 a 2 6 ]
+"158
+} 0
+"71
+[v i2_nivel_agua nivel_agua `(v  1 e 1 0 ]
+{
+"96
+} 0
+"62 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/lcd.c
+[v i2_lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v i2lcd_puts@s s `*.25Cuc  1 p 2 1 ]
+"67
+} 0
+"84
+[v i2_lcd_goto lcd_goto `(v  1 e 1 0 ]
+{
+[v i2lcd_goto@pos pos `uc  1 a 1 wreg ]
+[v i2lcd_goto@pos pos `uc  1 a 1 wreg ]
+"86
+[v i2lcd_goto@pos pos `uc  1 a 1 1 ]
+"88
+} 0
+"52
+[v i2_lcd_clear lcd_clear `(v  1 e 1 0 ]
+{
+"57
+} 0
+"38
+[v i2_lcd_write lcd_write `(v  1 e 1 0 ]
+{
+[v i2lcd_write@c c `uc  1 a 1 wreg ]
+[v i2lcd_write@c c `uc  1 a 1 wreg ]
+"40
+[v i2lcd_write@c c `uc  1 a 1 0 ]
+"45
+} 0
+"47 /media/wagner/MULTIBOOT/projeto pic/cafeteira.X/cafe_correto.c
+[v i2_envia envia `(v  1 e 1 0 ]
+{
+[v i2envia@n n `i  1 p 2 0 ]
+"60
+} 0
